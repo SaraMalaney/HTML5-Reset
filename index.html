@@ -73,6 +73,12 @@
 	<meta property="og:url" content="" />
 	<meta property="og:image" content="" />
 
+	<!-- Google Maps Javascript API v3 -->
+	<script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDezljMuJwKTS4kGOC8_V3Br9ME1tb-5Y">
+    </script>
+    <script type="text/javascript">
+    </script>
 </head>
 
 <body>
@@ -81,8 +87,8 @@
 
 	<header>
 		
-		<h1><a href="/">Page Title</a></h1>
-		
+		<h1>Sara's Google Map API Test</h1>
+	<!--	
 		<nav>
 		
 			<ol>
@@ -92,9 +98,14 @@
 			</ol>
 		
 		</nav>
-	
+	-->
 	</header>
-	
+	<form id="orig-dest">
+  		Origin: <input type="text" name="origin"><br>
+  		Destination: <input type="text" name="destination"><br>
+	</form>
+	<button onclick="getDirectionsMap()">Let's Go!</button>
+	<!--
 	<article>
 		
 		<h1>Article Header</h1>
@@ -118,7 +129,7 @@
 		<p><small>&copy; Copyright Your Name Here 2014. All Rights Reserved.</small></p>
 		
 	</footer>
-
+-->
 </div>
 
 <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
