@@ -100,11 +100,18 @@
 		</nav>
 	-->
 	</header>
-	<form id="orig-dest">
-  		Origin: <input type="text" name="origin"><br>
-  		Destination: <input type="text" name="destination"><br>
-	</form>
-	<button onclick="getDirectionsMap()">Let's Go!</button>
+	<div id="container">
+		<div id="container-left">
+		<form id="orig-dest">
+	  		Origin: <input type="text" name="origin"><br>
+	  		Destination: <input type="text" name="destination"><br>
+		</form>
+		<button onclick="getDirectionsMap()">Let's Go!</button>
+		</div>
+		<div id="container-right">
+		</div>
+	</div>
+
 	<!--
 	<article>
 		
